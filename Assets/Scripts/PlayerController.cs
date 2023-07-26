@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
             } else
             {
                 canDoubleJump = false;
+
+                anim.SetTrigger("doubleJump");
             }
 
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
