@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.localScale = Vector3.one;
         }
-
+        }
 
         //checking if on the ground
         isOnGround = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
